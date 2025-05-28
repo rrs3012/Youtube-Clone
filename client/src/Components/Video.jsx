@@ -16,7 +16,7 @@ import { subscription } from "../redux/userSlice";
 import { format } from "timeago.js";
 import Comments from "./Comments";
 import Recommendation from "./Recommendation";
-import pp from "../assets/channels4_profile.jpg";
+import pp from "../assets/banneryoutube.jpg";
 
 const Video = () => {
   const dispatch = useDispatch();

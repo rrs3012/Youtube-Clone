@@ -131,7 +131,7 @@ Follow the steps to set up the project om your machine:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/WasiuzzamanAnsari/YouTube-Clone.git
+git clone https://github.com/rrs3012/Youtube-Clone.git
 cd Youtube-Clone
 cd server
 npm i

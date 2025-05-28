@@ -4,8 +4,8 @@ import axios from "axios";
 import Card from "./Card";
 import { toast } from "react-toastify";
 import { Edit, Delete, Save, Close } from "@mui/icons-material";
-import banneryoutube from "../assets/banneryoutube.jpg";
-import pp from "../assets/channels4_profile.jpg";
+import banneryoutube from "../assets/channels4_profile.jpg";
+import pp from "../assets/banneryoutube.jpg";
 
 const UserProfile = () => {
   const { currentUser } = useSelector((state) => state.user);

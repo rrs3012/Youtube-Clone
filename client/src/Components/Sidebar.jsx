@@ -23,7 +23,7 @@ import { Link } from "react-router-dom";
 const Sidebar = ({ isOpen, isLargeScreen }) => {
   const sidebarItems = [
     { id: 1, name: "Home", icon: <HomeOutlined />, path: "/" },
-    { id: 2, name: "Your Channel", icon: <PersonOutline />, path: "/channel" },
+    { id: 2, name: "My Channel", icon: <PersonOutline />, path: "/channel" },
     { id: 3, name: "Subscription", icon: <SubscriptionsOutlined />, path: "/subscriptions" },
   ];
 

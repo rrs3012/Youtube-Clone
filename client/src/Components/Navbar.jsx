@@ -14,7 +14,7 @@ import { jwtDecode } from "jwt-decode";
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../redux/userSlice";
 import VideoUpload from "./VideoUpload";
-import pp from "../assets/channels4_profile.jpg"; // default profile image
+import pp from "../assets/banneryoutube.jpg"; // default profile image
 
 const Navbar = ({ toggleSidebar }) => {
   const [uploadOpen, setUploadOpen] = useState(false); // for upload popup
