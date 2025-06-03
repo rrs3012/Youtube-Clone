@@ -57,7 +57,7 @@ const ChannelCreation = () => {
             Sign In Required
           </h2>
           <p className="text-gray-600 font-['Inter']">
-            Please sign in to start building your MyTube channel.
+            Please sign in to start building your RrsTube channel.
           </p>
         </div>
       </div>
@@ -113,9 +113,9 @@ const ChannelCreation = () => {
         <p className="text-xs text-gray-400 mb-8">
           By creating your channel, you agree to{" "}
           <span className="text-red-600 cursor-pointer hover:underline">
-            MyTube’s Terms of Service
+            RrsTube’s Terms of Service
           </span>
-          . Changes to your name or profile image will only apply to MyTube.
+          . Changes to your name or profile image will only apply to RrsTube.
         </p>
 
         {/* Action Buttons */}

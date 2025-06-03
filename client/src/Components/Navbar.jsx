@@ -70,7 +70,7 @@ const Navbar = ({ toggleSidebar }) => {
             to="/"
             className="text-2xl font-extrabold text-red-600 tracking-wide hover:text-red-700 transition-all duration-300 ease-in-out"
           >
-            MyTube
+            RrsTube
           </Link>
         </div>
 

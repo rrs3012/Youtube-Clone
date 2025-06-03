@@ -5,7 +5,7 @@ import { verifyToken } from "../middlewares/verifyToken.js";
 const router = express.Router();
 
 //  USER ROUTES
-router.get("/find/:id", getUser );  // Get a user by ID
+router.get("/find/:id", getUser);  // Get a user by ID
 
 router.put("/sub/:id",verifyToken, subscribeUser );  // Subscribe to user
 
